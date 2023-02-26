@@ -95,7 +95,7 @@ const ProjectForm = ({ project, setIsModalOpen, setIsOverlayOpen }) => {
   return (
     <form onSubmit={handleSubmit} className="project-form flex flex-col gap-5">
       <h2
-        className={`text-4xl font-medium text-sky-400 mb-10 ${
+        className={`text-3xl font-medium text-sky-400 mb-10 ${
           project ? "hidden" : ""
         }`}
       >
