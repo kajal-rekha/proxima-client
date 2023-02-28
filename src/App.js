@@ -8,6 +8,7 @@ import { useAuthContext } from "./hooks/useAuthContext";
 
 function App() {
   const { user } = useAuthContext();
+
   return (
     <div className="app bg-slate-900 text-slate-100 min-h-screen">
       <Navbar />
