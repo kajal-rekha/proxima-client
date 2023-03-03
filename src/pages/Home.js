@@ -2,13 +2,19 @@ import { useEffect } from "react";
 import ProjectDetails from "../components/ProjectDetails";
 import ProjectForm from "../components/ProjectForm";
 import { useProjectsContext } from "../hooks/useProjectsContext";
+import { useAuthContext } from "../hooks/useAuthContext";
 
 const Home = () => {
   const { projects, dispatch } = useProjectsContext();
 
+  const { user } = useAuthContext();
   useEffect(() => {
     const getAllProjects = async () => {
-      const res = await fetch("http://localhost:5000/api/projects");
+      const res = await fetch("http://localhost:5000/api/projects", {
+        headers: {
+          Authorization: `Bearer ${user.token}`,
+        },
+      });
       const json = await res.json();
 
       if (res.ok) {
@@ -16,14 +22,16 @@ const Home = () => {
       }
     };
 
-    getAllProjects();
-  }, [dispatch]);
+    if (user) {
+      getAllProjects();
+    }
+  }, [dispatch, user]);
 
   return (
     <div className="home container mx-auto py-20 grid grid-cols-3 gap-10">
       <div className="left col-span-2">
         <h2 className="text-4xl font-medium text-sky-400 mb-10">
-          All Projects
+          {projects.length < 1 ? "No projects" : "All Projects"}
         </h2>
         <div className="project-wrapper  flex flex-wrap gap-10">
           {projects &&
