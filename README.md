@@ -44,4 +44,4 @@ npm run dev
 
 Proxima is a powerful project management app that makes it easy to stay organized and focused on your tasks. With its intuitive interface and real-time collaboration features, you and your team can stay on top of your projects and achieve your goals with ease.
 
-Note that you can copy and paste this markdown into your README file, and replace any placeholders (e.g. your-username) with the appropriate values for your project.
+
