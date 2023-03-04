@@ -42,11 +42,11 @@ const ProjectDetails = ({ project }) => {
     setIsOverlayOpen(false);
   };
   return (
-    <div className="project bg-slate-800 p-4 rounded-xl border border-slate-700 flex flex-col gap-5 w-[25rem]">
+    <div className="project bg-slate-800 p-5 rounded-xl border border-slate-700 flex flex-col gap-5 md:w-[32rem] w-full">
       <div className="top">
         <span className="text-sky-400">ID: {project._id}</span>
         <h3 className="text-3xl font-medium truncate">{project.title}</h3>
-        <span className="uppercase text-xs tracking-widest text-slate-500 font-medium">
+        <span className="uppercase text-sm tracking-widest text-slate-500 font-medium">
           {project.tech}
         </span>
       </div>
@@ -97,7 +97,7 @@ const ProjectDetails = ({ project }) => {
       {/* modal */}
 
       <div
-        className={`update-modal absolute w-[25rem] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/3 bg-slate-800 overflow-hidden p-10 rounded-xl border border-slate-700 z-[2] ${
+        className={`update-modal absolute w-[32rem] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/3 bg-slate-800 overflow-hidden p-10 rounded-xl border border-slate-700 z-[2] ${
           isModalOpen ? "" : "hidden"
         }`}
       >
