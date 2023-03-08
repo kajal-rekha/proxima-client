@@ -41,11 +41,11 @@ npm run dev
 4. Open your browser and navigate to http://localhost:3000
 
 ## Links 
-•[Live Demo](https://proxima-app-project.netlify.app)
+- [Live Demo](https://proxima-app-project.netlify.app)
 
-•[Front-End Repository](https://github.com/kajal-rekha/proxima-client.git)
+- [Front-End Repository](https://github.com/kajal-rekha/proxima-client.git)
 
-•[Back-End Repository](https://github.com/kajal-rekha/proxima-server.git)
+- [Back-End Repository](https://github.com/kajal-rekha/proxima-server.git)
 
 
 
