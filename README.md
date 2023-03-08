@@ -41,7 +41,7 @@ npm run dev
 4. Open your browser and navigate to http://localhost:3000
 
 ## Links 
-
+[Live Demo](https://proxima-app-project.netlify.app)
 
 ## Conclusion
 
