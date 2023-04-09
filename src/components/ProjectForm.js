@@ -188,7 +188,7 @@ const ProjectForm = ({ project, setIsModalOpen, setIsOverlayOpen }) => {
           value={duration}
           onChange={(e) => setDuration(e.target.value)}
           type="number"
-          placeholder="e.g e-commerce website"
+          placeholder="e.g 2 weeks"
           id="duration"
           className={`bg-transparent border  py-3 px-5 rounded-lg outline-none focus:border-sky-400 duration-300 ${
             emptyFields?.includes("duration")
