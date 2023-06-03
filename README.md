@@ -4,11 +4,11 @@ Proxima is a project management app that helps you and your team stay organized 
 
 ## Project Features
 - JWT Authentication: Secure access with encrypted tokens.
-  - Effortless Project Management : Intuitive interface for easy project management.
-  - Robust Security : State-of-the-art measures protect your data.
-  - Personalized Project Views : Private and secure user-specific project access.
-  - Easy Project Creation: Streamlined setup for new projects.
-  - Task Assignment and Progress Tracking: Efficient task management with clear progress tracking.
+- Effortless Project Management : Intuitive interface for easy project management.
+- Robust Security : State-of-the-art measures protect your data.
+- Personalized Project Views : Private and secure user-specific project access.
+- Easy Project Creation: Streamlined setup for new projects.
+- Task Assignment and Progress Tracking: Efficient task management with clear progress tracking.
 
 ## Tools Used
 
