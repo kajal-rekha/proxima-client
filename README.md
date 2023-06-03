@@ -3,12 +3,14 @@
 Proxima is a project management app that helps you and your team stay organized and focused on the tasks that matter. With Proxima, you can easily create projects, assign tasks to team members, and track progress all in one place. Our app is built using MongoDB, Express, React, Node.js, and Tailwind CSS.
 
 ## Project Features
-- JWT Authentication: Secure access with encrypted tokens.
-- Effortless Project Management : Intuitive interface for easy project management.
-- Robust Security : State-of-the-art measures protect your data.
-- Personalized Project Views : Private and secure user-specific project access.
-- Easy Project Creation: Streamlined setup for new projects.
-- Task Assignment and Progress Tracking: Efficient task management with clear progress tracking.
+## Features
+
+- **JWT Authentication**: Secure access with encrypted tokens.
+- **Effortless Project Management**: Intuitive interface for easy project management.
+- **Robust Security**: State-of-the-art measures protect your data.
+- **Personalized Project Views**: Private and secure user-specific project access.
+- **Easy Project Creation**: Streamlined setup for new projects.
+- **Task Assignment and Progress Tracking**: Efficient task management with clear progress tracking.
 
 ## Tools Used
 
