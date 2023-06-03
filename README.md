@@ -4,11 +4,9 @@ Proxima is a project management app that helps you and your team stay organized 
 
 ## Project Features
 
-- Create projects and assign tasks to team members
-- Set deadlines and track progress
-- Prioritize tasks and set reminders
-- Collaborate with team members in real-time
-- Generate reports and analytics
+  - Effortless Project Management : Intuitive interface for easy project management.
+  - Robust Security : State-of-the-art measures protect your data.
+  - Personalized Project Views : Private and secure user-specific project access.
 
 ## Tools Used
 
